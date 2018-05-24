@@ -5,7 +5,7 @@
 {% block inner %}
     <p>{% trans "Before we continue, we need you to answer some questions." %}</p>
     {% if event.settings.billetaarhusgdpr_message %}
-        {{ event.settings.billetaarhusgdpr_message|gdpr_localize }}
+        <div class="billet-aarhus-gdpr-message">{{ event.settings.billetaarhusgdpr_message|gdpr_localize|safe|linebreaks }}</div>
     {% endif %}
     <p class="required-legend">
         {% blocktrans trimmed %}
