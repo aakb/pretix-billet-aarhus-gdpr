@@ -1,0 +1,3 @@
+recursive-include pretix_billetaarhusgdpr/static *
+recursive-include pretix_billetaarhusgdpr/templates *
+recursive-include pretix_billetaarhusgdpr/locale *
