@@ -3,10 +3,21 @@
 {% load bootstrap3 %}
 {% load gdpr_extra %}
 {% block inner %}
-    <p>{% trans "Before we continue, we need you to answer some questions." %}</p>
     {% if event.settings.billetaarhusgdpr_message %}
-        <div class="billet-aarhus-gdpr-message">{{ event.settings.billetaarhusgdpr_message|gdpr_localize|safe|linebreaks }}</div>
+    <section class="billet-aarhus-gdpr-message panel panel-default">
+        <header class="x-panel-heading" style="padding: 15px">
+            <h1 style="font-weight: bolder; font-size: 100%; margin: 0">{% trans "Oplysninger om anvendelse af persondata" %}</h1>
+        </header>
+
+        <div class="panel-body" style="padding-top: 0">
+            <div style="max-height: 8em; overflow: auto">
+                {{ event.settings.billetaarhusgdpr_message|gdpr_localize|safe|linebreaks }}
+            </div>
+        </div>
+    </section>
     {% endif %}
+
+    <p>{% trans "Before we continue, we need you to answer some questions." %}</p>
     <p class="required-legend">
         {% blocktrans trimmed %}
             You need to fill all fields that are marked with <span>*</span> to continue.
