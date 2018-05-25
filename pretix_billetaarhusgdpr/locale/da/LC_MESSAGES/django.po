@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 15:32+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2018-05-25 15:00+0200\n"
+"PO-Revision-Date: 2018-05-25 15:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -20,75 +20,40 @@ msgstr ""
 
 #: pretix_billetaarhusgdpr/__init__.py:10
 #: pretix_billetaarhusgdpr/__init__.py:12
-msgid "GDPR stuff for billet.aarhus.dk"
-msgstr ""
+msgid "GDPR for billet.aarhus.dk"
+msgstr "GDPR for billet.aarhus.dk"
 
 #: pretix_billetaarhusgdpr/forms.py:8
-msgid "GDRP message"
-msgstr ""
+msgid "GDPR message"
+msgstr "GDPR-besked"
 
 #: pretix_billetaarhusgdpr/forms.py:9
-msgid "GDPR 87."
-msgstr ""
+msgid ""
+"The GDPR message will be shown before the user registers information in the "
+"system."
+msgstr "GDPR-beskeden viser oplysningspligten, som vises før brugeren indtaster informationer i systemet."
 
 #: pretix_billetaarhusgdpr/forms.py:15
 msgid "GDPR consent text"
-msgstr ""
+msgstr "GDPR-accept-tekst"
 
 #: pretix_billetaarhusgdpr/forms.py:16
-msgid ""
-"This text needs to be confirmed by the user before a purchase is possible. "
-"You could for example link your terms of service here. If you use the Pages "
-"feature to publish your terms of service, you don't need this setting since "
-"you can configure it there."
-msgstr ""
+msgid "The GDPR consent text must be accepted by the user before a purchase is possible."
+msgstr "GDPR-accept-teksten skal accepteres af brugeren før et køb kan gennemføres."
 
 #: pretix_billetaarhusgdpr/signals.py:18
 msgid "GDPR"
-msgstr ""
+msgstr "GDPR"
 
 #: pretix_billetaarhusgdpr/templates/pretix_billetaarhusgdpr/settings.html:4
 #: pretix_billetaarhusgdpr/templates/pretix_billetaarhusgdpr/settings.html:9
-msgid "GDPR Settings"
-msgstr ""
+msgid "GDPR settings"
+msgstr "GDPR-indstillinger"
 
 #: pretix_billetaarhusgdpr/templates/pretix_billetaarhusgdpr/settings.html:14
 msgid "Save"
-msgstr ""
+msgstr "Gem"
 
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:6
-msgid "Before we continue, we need you to answer some questions."
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:11
-msgid ""
-"You need to fill all fields that are marked with <span>*</span> to continue."
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:21
-msgid "Contact information"
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:38
-msgid "Invoice information"
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:39
-msgid "(optional)"
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:63
-msgid "Copy answers from above"
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:76
-msgid "Selected add-ons"
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:103
-msgid "Go back"
-msgstr ""
-
-#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:108
-msgid "Continue"
-msgstr ""
+#: pretix_billetaarhusgdpr/templates/pretixpresale/event/checkout_questions.html:9
+msgid "Information on use of personal data"
+msgstr "Oplysninger om anvendelse af persondata"

@@ -26,7 +26,7 @@ cmdclass = {
 setup(
     name='pretix-billet-aarhus-gdpr',
     version='1.0.0',
-    description='GDPR stuff for billet.aarhus.dk',
+    description='GDPR for billet.aarhus.dk',
     long_description=long_description,
     url='https://github.com/aakb/pretix-billet-aarhus-gdpr.git',
     author='Mikkel Ricky',

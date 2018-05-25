@@ -1,5 +1,5 @@
-GDPR stuff for billet.aarhus.dk
-==========================
+GDPR for billet.aarhus.dk
+=========================
 
 
 ## Installation
